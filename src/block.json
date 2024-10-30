@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/llama-ai-blog-assistant",
+	"version": "0.1.0",
+	"title": "Llama",
+	"category": "widgets",
+	"icon": "superhero",
+	"description": "Llama is your ChatGPT-powered AI assistant to write blogs",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "llama-ai-blog-assistant",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
